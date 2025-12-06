@@ -1,9 +1,21 @@
+body{
+  margin: 0px;
+}
+
+#topContainer{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border: 0px;
+  margin: 0px;
+}
+
 #container{
   border: solid rebeccapurple;
   display: flex;
   flex-direction: column;
-  width: 400px;
-  height: 400px;
+  width: fit-content;
+  height: fit-content;
 }
 
 .row{
