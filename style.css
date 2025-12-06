@@ -1,0 +1,15 @@
+#container{
+  border: solid rebeccapurple;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content:space-between;
+}
+
+.row{
+  border: solid black;
+  display: flex;
+  justify-content: space-between;
+}
