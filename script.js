@@ -25,3 +25,4 @@ for(let i=0; i<4; i++){
   }
 }
 
+let hover = document.querySelector('#hover');
