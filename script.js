@@ -10,14 +10,13 @@ function initializeDivs(){
   for(let i=0; i<4; i++){
     for(let j=0; j<4; j++){
       divs[count] = document.createElement("div");
-      divs[count].textContent = `${count}`;
+      //divs[count].textContent = `${count}`;
       rows[i].appendChild(divs[count]);
 
       //divs[count].style.flex = "1";
       divs[count].id = "item";
-      divs[count].style.flexGrow = 0;
-      divs[count].style.width = "50px";
-      divs[count].style.height = "50px";
+      divs[count].style.width = "60px";
+      divs[count].style.height = "60px";
       divs[count].style.alignContent = "center";
       divs[count].style.border = "solid red"
       count++;
@@ -31,3 +30,15 @@ initializeRows();
 const divs = [];
 let count = 0;
 initializeDivs();
+
+addEventListener("mouseover", (event)=>{
+  if(event.target.id === "item"){
+    event.target.style.backgroundColor = "red";
+  }
+});
+
+addEventListener("mouseout", (event)=>{
+  if(event.target.id === "item"){
+    event.target.style.backgroundColor = "white";
+  }
+});
