@@ -61,7 +61,7 @@ addEventListener("mouseout", (event)=>{
 const button = document.getElementById("btnChange");
 let value = 0;
 
-button.addEventListener("click", (event)=>{
+button.addEventListener("click", ()=>{
   deleteGrid(gridDimension);
   gridDimension = prompt("Choose the grid dimension:");
   

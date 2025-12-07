@@ -16,6 +16,7 @@ body{
   flex-direction: column;
   width: fit-content;
   height: fit-content;
+  justify-self: center;
 }
 
 .row{
