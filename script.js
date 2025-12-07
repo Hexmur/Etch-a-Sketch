@@ -44,13 +44,17 @@ initializeDivs();
 
 addEventListener("mouseover", (event)=>{
   if(event.target.id === "item"){
-    event.target.style.backgroundColor = "red";
+    event.target.style.backgroundColor = "black";
   }
 });
 
 addEventListener("mouseout", (event)=>{
   if(event.target.id === "item"){
-    event.target.style.backgroundColor = "white";
+    let R = Math.random()*256;
+    let G = Math.random()*256;
+    let B = Math.random()*256;
+    event.target.style.backgroundColor = `rgb(${R+90}, ${G+130}, ${B+130})`;
+    rgb(105, 132, 156)
   }
 });
 

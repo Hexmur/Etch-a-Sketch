@@ -13,7 +13,7 @@ body{
 }
 
 #container{
-  border: solid rebeccapurple;
+  border: solid deepskyblue;
   display: flex;
   flex-direction: column;
   width: 700px;
