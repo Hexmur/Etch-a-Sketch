@@ -14,13 +14,15 @@ body{
   border: solid rebeccapurple;
   display: flex;
   flex-direction: column;
-  width: fit-content;
-  height: fit-content;
+  width: 700px;
+  height: 700px;
   justify-self: center;
+}
+
+#item{
+  background-color: brown;
 }
 
 .row{
   display: flex;
-  width: fit-content;
-  height: fit-content;
 }
