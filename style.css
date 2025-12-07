@@ -1,5 +1,7 @@
 body{
   margin: 0px;
+  background-color: black;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #topContainer{
@@ -20,7 +22,22 @@ body{
 }
 
 #item{
-  background-color: brown;
+  background-color: deepskyblue;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  background-color:deepskyblue ;
+  border-color: aliceblue;
+  border-style: none;
+  font-size: 16px;
+}
+
+button:hover,
+button:focus {
+  background-color:dodgerblue;
 }
 
 .row{
